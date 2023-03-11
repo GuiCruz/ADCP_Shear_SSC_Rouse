@@ -1,0 +1,190 @@
+[C:\GUTO\1_Trabs\1_Aestus\Lagoa_dos_Patos\Mares2020\Mare_RioGrande_Boia_20201102\LPboia02.prf]
+---------------------------------------------------------------------
+Number of measurements                0
+Number of checksum errors             0
+Number of wave bursts                 370
+Number of bad bursts                  0
+Time of first measurement             17/09/2020 12:00:00.000
+Time of last measurement              02/11/2020 15:02:01.000
+
+User setup
+---------------------------------------------------------------------
+Profile interval                      600 sec
+Number of cells                       40
+Cell size                             50 cm
+Average interval                      120 sec
+Measurement load                      25 %
+Transmit pulse length                 0.50 m
+Blanking distance                     0.40 m
+Compass update rate                   600 sec
+Distance measurements                 DISABLED
+Wave measurements                     ENABLED
+Wave - Powerlevel                     LOW
+Wave - Interval                       10800 sec
+Wave - Number of samples              1024
+Wave - Sampling rate                  1 Hz
+Wave - Cell size                      2.00 m
+Analog input 1                        NONE
+Analog input 2                        NONE
+Power output                          DISABLED
+Powerlevel                            HIGH
+Coordinate system                     ENU
+Sound speed                           MEASURED
+Salinity                              35.0 ppt
+Distance between pings                31.01 m
+Number of beams                       3
+Number of pings per burst             2
+Software version                      1.35
+Deployment name                       LPboia
+Wrap mode                             OFF
+Deployment time                       17/09/2020 12:00:00
+Comments                              
+System1                               46
+System2                               44
+System3                               12
+System4                               1355
+System5                               512
+System9                               16384
+System10                              96
+System11                              0
+System12                              0
+System13                              0
+System14                              600
+System16                              40
+System17                              2954
+System22                              10800
+System28                              1
+System29                              1
+System30                              7
+System31                              15618 15646 15673 15699
+System32                              0
+System33                              0
+System34                              167
+System35                              110
+System36                              10709
+System38                              0
+System39                              0
+System40                              0
+System41                              0
+System42                              0
+System43                              0
+System44                              0
+System45                              6
+Start command                         Recorder deployment
+CRC download                          ON
+
+Hardware configuration
+---------------------------------------------------------------------
+Serial number                         AQD 9723
+Hardware revision                     E
+Recorder size                         41 MByte
+Firmware version                      3.38
+Velocity range                        NORMAL
+Power output                          12V
+Sync signal data out delay            0 sec
+Sync signal power down delay          0 sec
+
+Head configuration
+---------------------------------------------------------------------
+Pressure sensor                       YES
+Compass                               YES
+Tilt sensor                           YES
+System 1                              1
+Head frequency                        1000 kHz
+Serial number                         ASP 5329
+Transformation matrix                 1.5774 -0.7891 -0.7891
+                                      0.0000 -1.3662 1.3662
+                                      0.3677 0.3677 0.3677
+Magnetometer calibration matrix       0.9313 0.0082 -0.0122
+                                      0.0082 0.9589 0.0019
+                                      -0.0115 0.0245 1.0000
+Compass hard iron calibration         11 14 -13
+Pressure sensor calibration           0 0 16900 8731
+Number of beams                       3
+System5                               25 25 25 0
+System7                               -18598 -737 11751 165
+                                      -17927 152 11750 120
+System8                               1 0 0
+                                      0 -1 0
+                                      0 0 -1
+System9                               1 0 0
+                                      0 1 0
+                                      0 0 1
+System10                              0 1 -1 0
+System11                              0 1 1 0
+System13                              1481 259 7128 10855
+System14                              -19533 -66 11945 -90
+                                      -19816 -421 11970 -126
+System15                              30516 268 -399 268
+                                      31421 63 -376 803
+                                      32767 11 14 -13
+                                      0 0 0 0
+System16                              0 0 0 0
+System17                              4550
+System18                              3600
+System19                              3600
+System20                              10000
+
+Processing configuration
+---------------------------------------------------------------------
+PdWaveBase Version                    3.38
+Processing method                     PUV
+Wave Coordinate System                Beam
+Spectrum Selected                     Pressure
+Wave Direction                        From
+Beams Included                        1 2 3 4
+Number of Bins for Smoothing          64
+Start Frequency                       0.02 Hz
+End Frequency                         0.49 Hz
+Start Frequency AST                   0.02 Hz
+End Frequency AST                     0.99 Hz
+Frequency Step                        0.01 Hz
+Mounting Height                       0.50 m
+Directional Offset                    0.00 deg
+Pressure Offset                       0.00 dbar
+
+Current Data QC settings
+---------------------------------------------------------------------
+Low signal SNR threshold              3.0 dB
+Sidelobe rejection                    90.0% - SURFACE
+Beam rejection                        Use all beams
+Remove tilt effects                   ENABLED
+Compass offset                        0.0 deg
+Pressure Offset                       0.0 dbar
+Velocity variations rejection         5 #Std
+Echo spikes rejection                 70.0 dB
+
+Data file format
+---------------------------------------------------------------------
+[C:\GUTO\1_Trabs\1_Aestus\Lagoa_dos_Patos\Mares2020\Mare_RioGrande_Boia_20201102\LPboia02.wap]
+ 1   Month                            (1-12)
+ 2   Day                              (1-31)
+ 3   Year
+ 4   Hour                             (0-23)
+ 5   Minute                           (0-59)
+ 6   Second                           (0-59)
+ 7   Spectrum type                    (0-Pressure, 1-Velocity, 3-AST)
+ 8   Significant height (Hm0)         (m)
+ 9   Mean 1/3 height (H3)             (m)
+10   Mean 1/10 height (H10)           (m)
+11   Maximum height (Hmax)            (m)
+12   Mean Height (Hmean)              (m)
+13   Mean  period (Tm02)              (s)
+14   Peak period (Tp)                 (s)
+15   Mean zerocrossing period (Tz)    (s)
+16   Mean 1/3 Period (T3)             (s)
+17   Mean 1/10 Period (T10)           (s)
+18   Maximum Period (Tmax)            (s)
+19   Peak direction (DirTp)           (deg)
+20   Directional spread (SprTp)       (deg)
+21   Mean direction (Mdir)            (deg)
+22   Unidirectivity index
+23   Mean Pressure                    (dbar)
+24   Mean AST distance                (m)
+25   Mean AST distance (Ice)          (m)
+26   No Detects
+27   Bad Detects
+28   Number of Zero-Crossings
+29   Current speed (wave cell)        (m/s)
+30   Current direction (wave cell)    (degrees)
+31   Error Code
